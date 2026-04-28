@@ -1,0 +1,111 @@
+/* Container */
+.watchlist-container {
+  width: 280px;
+  background: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.counts {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+}
+
+/* List */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Item */
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.item:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+/* Stock Name */
+.up {
+  color: green;
+  font-weight: 500;
+}
+
+.down {
+  color: red;
+  font-weight: 500;
+}
+
+/* Right Info */
+.itemInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.percent {
+  font-size: 12px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+/* Actions (hover buttons) */
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.actions button {
+  margin: 2px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Buttons */
+.buy {
+  background: #00c853;
+  color: white;
+}
+
+.sell {
+  background: #d50000;
+  color: white;
+}
+
+.action {
+  background: #eee;
+}
+
+/* Chart */
+canvas {
+  margin-top: 15px;
+}

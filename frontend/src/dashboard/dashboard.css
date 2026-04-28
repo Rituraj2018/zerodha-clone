@@ -1,0 +1,113 @@
+/* Layout */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar (Menu) */
+.menu-container {
+  width: 220px;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.menu-container img {
+  margin-bottom: 20px;
+}
+
+.menus ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menus li {
+  margin: 15px 0;
+}
+
+.menu {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: white;
+}
+
+.menu.selected {
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+/* Profile */
+.profile {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.avatar {
+  background: #00d4ff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  text-align: center;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+/* TopBar */
+.topbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Cards */
+.section {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Table */
+table {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #222;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Profit / Loss */
+.profit {
+  color: green;
+}
+
+.loss {
+  color: red;
+}
